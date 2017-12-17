@@ -56,6 +56,6 @@ function destructivelyRemoveElementFromEndOfArray(a) {
 }
 
 function removeElementFromEndOfArray(a) {
-  const c = a.slice(0, a.lenght-1);
+  const c = a.slice(0, a.lenght-2);
   return c;
 }
