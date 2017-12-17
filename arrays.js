@@ -36,3 +36,4 @@ destructivelyAddElementToEndOfArray(cities,"NJ")
 function accessElementInArray(a,b){
   return b;
 }
+accessElementInArray(cities,1)
