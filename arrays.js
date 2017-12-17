@@ -55,4 +55,4 @@ function destructivelyRemoveElementFromEndOfArray(a) {
   return a;
 }
 
-
+function
