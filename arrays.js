@@ -37,3 +37,5 @@ function accessElementInArray(a,b){
   return (a[b]);
 }
 accessElementInArray(cities,1)
+
+const days= ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
