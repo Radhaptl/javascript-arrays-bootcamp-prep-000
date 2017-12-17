@@ -34,6 +34,6 @@ return a;
 destructivelyAddElementToEndOfArray(cities,"NJ")
 
 function accessElementInArray(a,b){
-  return b;
+  return (a[b]);
 }
 accessElementInArray(cities,1)
