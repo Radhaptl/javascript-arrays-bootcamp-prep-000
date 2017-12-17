@@ -45,4 +45,5 @@ function destructivelyRemoveElementFromBeginningOfArray(a){
   return a;
 }
 
-function
+function removeElementFromBeginningOfArray(a) { const c = a.slice(0)
+
