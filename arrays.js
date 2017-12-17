@@ -46,7 +46,7 @@ function destructivelyRemoveElementFromBeginningOfArray(a){
 }
 
 function removeElementFromBeginningOfArray(a) {
-  const c = a.slice(0); 
+  const c = a.slice(1); 
   return c;
 }
 
