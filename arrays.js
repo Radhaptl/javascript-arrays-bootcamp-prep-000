@@ -1,0 +1,34 @@
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+var superheroines = ["catwoman", "she-hulk", "mystique"];
+ 
+ 
+const cities = ["New York", "San francisco"];
+
+function addElementToBeginningOfArray(a,b) { 
+const c = [b, ...a]
+return c;
+}
+addElementToBeginningOfArray(cities,"NJ")
+
+
+
+function destructivelyAddElementToBeginningOfArray(a,b) { 
+a.unshift (b)
+return a;
+}
+destructivelyAddElementToBeginningOfArray(cities,"NJ")
+
+
+function addElementToEndOfArray(a,b) { 
+const c = [...a, b]
+return c;
+}
+addElementToEndOfArray(cities,"NJ")
+
+
+
+function destructivelyAddElementToEndOfArray(a,b) { 
+a.push (b)
+return a;
+}
+destructivelyAddElementToEndOfArray(cities,"NJ")
