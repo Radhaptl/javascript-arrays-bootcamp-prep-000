@@ -45,3 +45,4 @@ function destructivelyRemoveElementFromBeginningOfArray(a){
   return a;
 }
 
+function
