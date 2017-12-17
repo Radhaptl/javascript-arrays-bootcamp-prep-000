@@ -41,7 +41,7 @@ accessElementInArray(cities,1)
 const days= ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 
 function destructivelyRemoveElementFromBeginningOfArray(a){ 
-  a.shift();
+  a.shift(0);
   return a;
 }
 
