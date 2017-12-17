@@ -32,3 +32,7 @@ a.push (b)
 return a;
 }
 destructivelyAddElementToEndOfArray(cities,"NJ")
+
+function accessElementInArray(a,b){
+  return b;
+}
